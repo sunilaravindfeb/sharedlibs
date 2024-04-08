@@ -1,5 +1,3 @@
-def call()
-{
-  sh "date"
-  sh "ifconfig enp0s3"
+def call(name){
+  echo "Hey ${name},How are you?"
 }
